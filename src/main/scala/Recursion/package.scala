@@ -18,12 +18,28 @@ package object Recursion {
       exponentiation(primes.head, lowerExponent) * mcdTFA(ln.tail, lm.tail, primes.tail);
     }
   }
-  def mcdEBez(n: Int, m: Int):(Int, Int, Int) = {
-    if(m == 0) (n, 1, 0) else {
-      val (d, x1, y1) = mcdEBez(m, n % m)
-      val x = y1
-      val y = x1 - (n / m) * y1
-      (d, x, y)
+  def mcdEBez(n: Int, m: Int): (Int, Int, Int) = {
+    def aux(n: Int, m: Int, qs: List[Int]): (Int, List[Int]) = {
+      if (m == 0) (n, qs)
+      else {
+        val q = n / m
+        aux(m, n % m, q +: qs)
+      }
     }
+
+    val (d, qs) = aux(n, m, List())
+
+    def getBezoutCoefficients(qs: List[Int], x: Int, y: Int): (Int, Int) = {
+      if (qs.isEmpty) (x, y)
+      else {
+        val newX = y
+        val newY = x - qs.head * y
+        getBezoutCoefficients(qs.tail, newX, newY)
+      }
+    }
+
+    val (x, y) = getBezoutCoefficients(qs, 1, 0)
+
+    (d, x, y)
   }
 }
