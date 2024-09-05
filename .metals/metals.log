@@ -1136,3 +1136,156 @@ org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequ
 	at java.lang.Thread.run(Thread.java:833)
 
 2024.09.05 01:27:44 INFO  Exiting server
+2024.09.05 01:31:13 INFO  Started: Metals version 1.3.5 in folders 'C:\Users\LENOVO\FPFC' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@7509cd09]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@632f5280]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@7509cd09]
+2024.09.05 01:31:16 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+sep. 05, 2024 1:31:16 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTENCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didOpen",
+  "params": {
+    "textDocument": {
+      "uri": "file:///c%3A/Users/LENOVO/FPFC/src/test/scala/tests.sc",
+      "languageId": "scala",
+      "version": 1,
+      "text": "import Recursion._\r\n//Pruebas mcdTFA\r\nmcdTFA(List(1, 1, 1), List(1, 1, 0), List(2, 3, 5)) //mcd(30, 12)\r\nmcdTFA(List(2, 0, 1), List(2, 1, 0), List(2, 3, 7)) //mcd(28, 12)\r\nmcdTFA(List(3, 1), List(0, 1), List(2, 7)) //mcd(56, 7)\r\nmcdTFA(List(1, 0, 1), List(1, 1, 0), List(3, 5, 19)) //mcd(57, 15)\r\nmcdTFA(List(2, 1), List(3, 0), List(2, 11)) //mcd(44, 8)\r\n\r\n//Pruebas mcdEBez\r\nmcdEBez(28, 10)\r\nmcdEBez(35, 15)\r\nmcdEBez(48, 18)\r\nmcdEBez(56, 21)\r\nmcdEBez(84, 30)\r\n\r\n//Pruebas fibonacciA\r\nfibonacciA(5)\r\nfibonacciA(10)\r\nfibonacciA(20)\r\nfibonacciA(3)\r\nfibonacciA(19)\r\n\r\n\r\n//Pruebas fibonacciI\r\n\r\nfibonacciI(7)\r\nfibonacciI(9)\r\nfibonacciI(21)\r\nfibonacciI(17)\r\nfibonacciI(30)"
+    }
+  }
+}
+java.lang.IllegalStateException: An unexpected exception occurred while executing jsonrpc method public abstract java.util.concurrent.CompletableFuture scala.meta.metals.lsp.TextDocumentService.didOpen(org.eclipse.lsp4j.DidOpenTextDocumentParams)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:73)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.file.NoSuchFileException: c:\Users\LENOVO\FPFC\src\test\scala\tests.sc
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.metals.MetalsLspService.didOpen(MetalsLspService.scala:758)
+	at scala.meta.internal.metals.WorkspaceLspService.didOpen(WorkspaceLspService.scala:401)
+	at scala.meta.metals.lsp.DelegatingScalaService.didOpen(DelegatingScalaService.scala:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	... 11 more
+
+2024.09.05 01:31:18 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:31:29 WARN  Could not find semantic tokens for: file:///C:/Users/LENOVO/FPFC/src/main/scala/Recursion/tests.sc
+2024.09.05 01:31:39 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\a.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:31:39 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\a.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:31:39 WARN  Could not find semantic tokens for: file:///C:/Users/LENOVO/FPFC/src/test/scala/a.sc
+sep. 05, 2024 1:31:39 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 10
+2024.09.05 01:31:48 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\a.sc. Using presentation compiler with project's scala-library version: 3.3.3
+sep. 05, 2024 1:31:48 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 19
+sep. 05, 2024 1:31:48 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 20
+2024.09.05 01:31:50 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:31:50 WARN  Could not find semantic tokens for: file:///C:/Users/LENOVO/FPFC/src/main/scala/Recursion/tests.sc
+2024.09.05 01:31:51 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\a.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:31:51 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\a.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:31:51 WARN  Could not find semantic tokens for: file:///C:/Users/LENOVO/FPFC/src/test/scala/a.sc
+2024.09.05 01:31:51 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\a.sc. Using presentation compiler with project's scala-library version: 3.3.3
+sep. 05, 2024 1:31:56 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 38
+2024.09.05 01:31:57 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:31:57 WARN  Could not find semantic tokens for: file:///C:/Users/LENOVO/FPFC/src/main/scala/Recursion/tests.sc
+2024.09.05 01:31:58 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:32:00 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:32:00 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:32:01 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:32:01 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+sep. 05, 2024 1:32:01 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 63
+2024.09.05 01:32:03 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:33:23 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:33:23 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+sep. 05, 2024 1:33:32 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 86
+2024.09.05 01:33:33 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:34:29 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:34:30 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:34:33 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:34:33 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:34:54 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:34:54 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:34:54 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:34:54 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:34:56 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:34:56 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:04 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:04 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:04 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:05 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:13 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:13 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:14 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:21 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:21 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:21 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:29 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:29 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:31 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:31 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:32 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:42 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:42 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:43 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:43 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:49 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:49 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:49 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:50 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:56 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:56 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:56 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:35:57 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:36:03 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:36:04 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:36:03 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:36:04 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:36:10 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:36:10 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:36:15 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:36:15 WARN  no build target for: C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc
+2024.09.05 01:36:15 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:36:30 INFO  no build target found for c:\Users\LENOVO\FPFC\src\test\scala\a.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:36:37 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:36:37 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:36:40 INFO  Shutting down server
+2024.09.05 01:36:40 INFO  shutting down Metals
+2024.09.05 01:36:40 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.09.05 01:36:40 INFO  Exiting server
