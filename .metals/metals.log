@@ -846,3 +846,293 @@ ADVERTENCIA: Unmatched cancel notification for request id 73
 2024.09.05 01:03:11 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
 2024.09.05 01:03:11 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
 2024.09.05 01:03:16 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:09:50 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:09:53 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:09:54 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:09:54 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:12:49 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:12:49 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:12:57 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:12:57 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:00 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:01 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:01 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:02 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+sep. 05, 2024 1:13:02 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 289
+2024.09.05 01:13:02 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:04 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:07 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:07 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:17 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:19 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:19 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+sep. 05, 2024 1:13:21 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 318
+2024.09.05 01:13:25 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:25 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:27 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+sep. 05, 2024 1:13:27 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 329
+2024.09.05 01:13:32 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:36 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+sep. 05, 2024 1:13:36 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 336
+2024.09.05 01:13:39 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:39 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:39 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:41 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:41 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:45 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:46 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:50 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:52 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:52 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:52 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:56 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:57 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:13:59 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:14:05 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:14:08 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:14:10 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:14:11 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:14:15 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:14:15 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:14:17 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:14:22 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+sep. 05, 2024 1:14:22 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 411
+2024.09.05 01:14:22 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+sep. 05, 2024 1:14:22 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 416
+2024.09.05 01:14:22 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:14:23 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:14:25 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:14:27 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:14:27 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:14:27 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:14:32 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+sep. 05, 2024 1:14:32 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 438
+2024.09.05 01:14:32 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:14:35 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:15:06 INFO  Shutting down server
+2024.09.05 01:15:06 INFO  shutting down Metals
+2024.09.05 01:15:06 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.09.05 01:15:06 INFO  Exiting server
+2024.09.05 01:17:17 INFO  Started: Metals version 1.3.5 in folders 'C:\Users\LENOVO\FPFC' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@7509cd09]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@632f5280]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@7509cd09]
+2024.09.05 01:17:19 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.09.05 01:17:21 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:17:36 WARN  Could not find semantic tokens for: file:///C:/Users/LENOVO/FPFC/src/test/scala/tests.sc
+sep. 05, 2024 1:18:03 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 11
+2024.09.05 01:18:04 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+sep. 05, 2024 1:18:04 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 17
+2024.09.05 01:18:04 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:04 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:04 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+sep. 05, 2024 1:18:25 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 25
+2024.09.05 01:18:27 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:28 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:28 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:28 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:30 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:30 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:32 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:32 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:32 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:33 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:33 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:35 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:35 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:35 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:37 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:37 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:37 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:37 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:38 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:38 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+sep. 05, 2024 1:18:39 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 97
+2024.09.05 01:18:38 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:40 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:40 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:40 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:41 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:41 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:41 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:44 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:45 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:45 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:45 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:47 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:47 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:47 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:47 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:48 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:49 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:49 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:49 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:49 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:50 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:50 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:50 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:50 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:51 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:55 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:55 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+sep. 05, 2024 1:18:55 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 159
+2024.09.05 01:18:55 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:55 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:57 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:57 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:57 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+sep. 05, 2024 1:18:58 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 168
+2024.09.05 01:18:57 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:58 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:58 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:58 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:58 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:58 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:59 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:59 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:59 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:00 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:18:59 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:00 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:00 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:00 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+sep. 05, 2024 1:19:01 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 196
+2024.09.05 01:19:00 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:00 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:02 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:21 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:21 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:21 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:21 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:21 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:22 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:22 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:23 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:23 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:23 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:23 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:23 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:24 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:25 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:25 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:30 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:31 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:30 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:31 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:32 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:33 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:34 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:34 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:34 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:34 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:35 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:37 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:41 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:41 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:41 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:43 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:43 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:43 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+sep. 05, 2024 1:19:43 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 284
+2024.09.05 01:19:43 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:43 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:44 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:44 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+sep. 05, 2024 1:19:44 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 302
+2024.09.05 01:19:44 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:44 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+sep. 05, 2024 1:19:44 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 305
+2024.09.05 01:19:44 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+sep. 05, 2024 1:19:45 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 310
+sep. 05, 2024 1:19:45 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 314
+2024.09.05 01:19:45 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:44 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:45 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:19:46 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:22:49 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:22:49 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:22:49 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:22:50 INFO  no build target found for C:\Users\LENOVO\FPFC\src\main\scala\Recursion\package.scala. Using presentation compiler with project's scala-library version: 3.3.3
+sep. 05, 2024 1:22:55 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 344
+2024.09.05 01:22:55 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:05 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\a.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:08 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\a.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:08 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\a.sc. Using presentation compiler with project's scala-library version: 3.3.3
+sep. 05, 2024 1:27:09 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 362
+2024.09.05 01:27:14 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\a.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:14 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\a.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:14 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\a.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:15 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:20 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:20 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:23 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:23 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:23 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:24 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:25 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:25 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:25 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:25 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:25 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+sep. 05, 2024 1:27:25 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 409
+2024.09.05 01:27:29 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:29 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:29 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:29 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:30 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:30 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:31 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:31 INFO  no build target found for C:\Users\LENOVO\FPFC\src\test\scala\tests.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:41 INFO  no build target found for c:\Users\LENOVO\FPFC\src\test\scala\a.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 01:27:44 INFO  Shutting down server
+2024.09.05 01:27:44 INFO  shutting down Metals
+2024.09.05 01:27:44 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.09.05 01:27:44 INFO  Exiting server
