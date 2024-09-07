@@ -1,5 +1,7 @@
 import Recursion._
 
-mcdTFA(List(3, 1, 1), List(2, 0, 3), List(2, 3, 5))
-
-mcdEBez(963, 657)
+val fa = fullAdder;
+fa(List(1,1,0))
+fa(List(1,1,1))
+fa(List(0,1,0))
+fa(List(0,1,1))
