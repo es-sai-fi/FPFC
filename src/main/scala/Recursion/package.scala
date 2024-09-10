@@ -41,5 +41,17 @@ package object Recursion {
     val (x, y) = getBezoutCoefficients(qs, 1, 0)
 
     (d, x, y)
-  }
+  
+  def fibonacciA(n: Int): Int = {
+    if (n == 0) 1
+    else if (n == 1) 1
+    else fibonacciA(n - 1) + fibonacciA(n - 2)}
+  
+  def fibonacciI(n: Int): Int = {
+    def it(n: Int, a: Int, b: Int): Int = {
+      if (n == 0) a
+      else if (n == 1) b
+      else it(n - 1, b, a + b)
+    }
+      it(n, 1, 1)} 
 }

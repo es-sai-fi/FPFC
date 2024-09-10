@@ -1,9 +1,11 @@
 
 
-final class tests$_ {
-def args = tests_sc.args$
-def scriptPath = """tests.sc"""
+final class pruebas$_ {
+def args = pruebas_sc.args$
+def scriptPath = """pruebas.sc"""
 /*<script>*/
+import Recursion._
+
 import Recursion._
 //Pruebas mcdTFA
 mcdTFA(List(1, 1, 1), List(1, 1, 0), List(2, 3, 5)) //mcd(30, 12)
@@ -26,18 +28,16 @@ fibonacciA(20)
 fibonacciA(3)
 fibonacciA(19)
 
-
 //Pruebas fibonacciI
-
 fibonacciI(7)
 fibonacciI(9)
-fibonacciI(21)
+fibonacciI(21) 
 fibonacciI(17)
 fibonacciI(30)
 /*</script>*/ /*<generated>*//*</generated>*/
 }
 
-object tests_sc {
+object pruebas_sc {
   private var args$opt0 = Option.empty[Array[String]]
   def args$set(args: Array[String]): Unit = {
     args$opt0 = Some(args)
@@ -47,7 +47,7 @@ object tests_sc {
     sys.error("No arguments passed to this script")
   }
 
-  lazy val script = new tests$_
+  lazy val script = new pruebas$_
 
   def main(args: Array[String]): Unit = {
     args$set(args)
@@ -55,5 +55,5 @@ object tests_sc {
   }
 }
 
-export tests_sc.script as `tests`
+export pruebas_sc.script as `pruebas`
 
