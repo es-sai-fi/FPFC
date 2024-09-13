@@ -3,55 +3,53 @@ package object Recursion {
    * Ejercicio 1.1.1
    * máximo común divisor a partir del teorema fundamental de la aritmética.
    */
-  def mcdTFA(ln: List[Int], lm: List[Int], primes: List[Int]): Int = {
-    def obtainLowerExponent(ln: List[Int], lm: List[Int]): Int = {
-      if (ln.head <= lm.head) ln.head else lm.head;
-    }
-    def exponentiation(base: Int, exponent: Int): Int = {
-      if (exponent == 0) 1 else{
-        base*exponentiation(base, exponent-1);
-      }
-    }
-    if (primes.isEmpty) 1
-    else {
-      val lowerExponent = obtainLowerExponent(ln, lm);
-      exponentiation(primes.head, lowerExponent) * mcdTFA(ln.tail, lm.tail, primes.tail);
+  type Chip = List[Int] => List[Int];
+
+  def createUnaryChip(function: Int => Int): Chip = {
+    (entry: List[Int]) => {
+      List(function(entry.head))
     }
   }
-  def mcdEBez(n: Int, m: Int): (Int, Int, Int) = {
-    def aux(n: Int, m: Int, qs: List[Int]): (Int, List[Int]) = {
-      if (m == 0) (n, qs)
-      else {
-        val q = n / m
-        aux(m, n % m, q +: qs)
-      }
+
+  def createBinaryChip(function: (Int, Int) => Int): Chip = {
+    (entry: List[Int]) => {
+      List(function(entry.head, entry.tail.head))
     }
+  }
 
-    val (d, qs) = aux(n, m, List())
-
-    def getBezoutCoefficients(qs: List[Int], x: Int, y: Int): (Int, Int) = {
-      if (qs.isEmpty) (x, y)
-      else {
-        val newX = y
-        val newY = x - qs.head * y
-        getBezoutCoefficients(qs.tail, newX, newY)
-      }
+  def halfAdder: Chip = {
+    val not = createUnaryChip((x: Int) => (1-x));
+    val and = createBinaryChip((x: Int, y: Int) => (x*y));
+    val or = createBinaryChip((x: Int, y: Int) => (x+y-x*y));
+    (entry: List[Int]) =>{
+      val carry = and(entry);
+      val sum = and(List(or(entry).head, not(carry).head));
+      List(carry.head, sum.head);
     }
+  }
 
-    val (x, y) = getBezoutCoefficients(qs, 1, 0)
+  def fullAdder: Chip = {
+    val not = createUnaryChip((x: Int) => (1 - x));
+    val and = createBinaryChip((x: Int, y: Int) => (x * y));
+    val or = createBinaryChip((x: Int, y: Int) => (x + y - x * y));
+    val ha = halfAdder;
+    (entry: List[Int]) => {
+      val a = entry.head;
+      val b = entry.tail.head;
+      val cin = entry.tail.tail.head;
 
-    (d, x, y)
-  
-  def fibonacciA(n: Int): Int = {
-    if (n == 0) 1
-    else if (n == 1) 1
-    else fibonacciA(n - 1) + fibonacciA(n - 2)}
-  
-  def fibonacciI(n: Int): Int = {
-    def it(n: Int, a: Int, b: Int): Int = {
-      if (n == 0) a
-      else if (n == 1) b
-      else it(n - 1, b, a + b)
+      val ha1 = ha(List(b, cin));
+      val carry1 = ha1.head;
+      val sum1 = ha1.tail.head;
+
+      val ha2 = ha(List(a, sum1));
+      val carry2 = ha2.head;
+      val sum2 = ha2.tail.head;
+
+      val cout = or(List(carry2, carry1));
+
+      List(cout.head, sum2);
     }
-      it(n, 1, 1)} 
+  }
+
 }
